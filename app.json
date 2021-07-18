@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/guide/index",
+    "pages/home_center/device_list/index",
+    "pages/home_center/common_panel/index",
+    "pages/home_center/device_manage/index",
+    "pages/cloud_check/index",
+    "pages/function_center/device_connect/index",
+    "pages/web_view/index",
+    "pages/base_function/index",
+    "pages/ts/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tuya-ap-plugin": {
+      "version": "3.3.24",
+      "provider": "wxd2aa51ffacc3ff86"
+    }
+  },
+  "permission": {
+    "scope.userLocation": { "desc": "你的位置信息将用于家庭位置、天气、智能、设备等功能的使用" }
+  },
+  "sitemapLocation": "sitemap.json"
+}
